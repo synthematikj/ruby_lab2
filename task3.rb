@@ -19,8 +19,3 @@ def find_first_n_primes(n)
 
   primes
 end
-
-n = 5
-prime_nums = find_first_n_primes(n)
-puts "Первые #{n} простых чисел:"
-puts prime_nums.join(', ')

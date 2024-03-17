@@ -8,11 +8,3 @@ def mult_complex_nums(a, b, c, d)
   g = a*d + b*c
   [e, g]
 end
-
-a = 5
-b = 3
-c = 6
-d = 2
-
-e, g = mult_complex_nums(a, b, c, d)
-puts "(#{a} + #{b}i) * (#{c} + #{d}i) = #{e} + #{g}i"
